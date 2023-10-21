@@ -55,7 +55,6 @@ void printMatrix(int matrix[MAX_SIZE][MAX_SIZE], int rowSize, int colSize) {
     for (int i = 0; i < rowSize; i++) {
         for (int j = 0; j < colSize; j++) {
             std::cout << matrix[i][j] << " ";
-            // printf("%d ", matrix[i][j]);
         }
         std::cout << std::endl;
     }
